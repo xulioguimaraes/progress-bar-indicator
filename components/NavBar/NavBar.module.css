@@ -2,11 +2,15 @@
   display: flex;
   width: 100vw;
   align-items: center;
+  color: white;
   justify-content: center;
-  height: 100%;
+  background-image: linear-gradient(to right, #3a373f, #2ebf91);
   flex-direction: column;
 }
-.button{
+.button {
   display: flex;
   gap: 1rem;
+}
+.selected{
+    border-bottom: 1px solid rgb(235, 203, 23);
 }
